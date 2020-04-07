@@ -47,7 +47,7 @@ import sklearn
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> The python website mentions that Python 2 is currently in EOL status and will no longer receive official support. I downloaded Python 3 because it is the more optimized and updated version. 
 
 ### Q2. Which Python Version Installed   
 
@@ -55,7 +55,8 @@ In the Terminal:
 
 `python3 --version`
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Python 3.7.6
+
 
  
 
