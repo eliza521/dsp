@@ -3,7 +3,11 @@
 >> 0.0289
 
 firsts = live[live.birthord == 1]
+
 others = live[live.birthord != 1]
+
 preglen_first=firsts.prglngth 
+
 preglen_other=others.prglngth
+
 CohenEffectSize(preglen_first, preglen_other)
