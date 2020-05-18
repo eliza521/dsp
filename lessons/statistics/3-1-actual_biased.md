@@ -23,3 +23,7 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([numkid_pmf, new_numkid_pmf])
 
 thinkplot.Config(xlabel='How Many Kids', ylabel='Percentage of Whole',)
+
+print('Actual mean', numkid_pmf.Mean())
+
+print('Biased mean', new_numkid_pmf.Mean())
