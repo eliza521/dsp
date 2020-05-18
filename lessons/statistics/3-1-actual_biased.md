@@ -5,12 +5,21 @@
 >> Biased mean 2.024
 
 resp = nsfg.ReadFemResp()
+
 numkid=resp.numkdhh
+
 copy_numkid=numkid.copy()
+
 new_numkid=copy_numkid.add(1)
+
 new_numkid.head()
+
 new_numkid_pmf = thinkstats2.Pmf(new_numkid, label='biased')
+
 numkid_pmf = thinkstats2.Pmf(numkid, label='actual')
+
 thinkplot.PrePlot(2)
+
 thinkplot.Pmfs([numkid_pmf, new_numkid_pmf])
+
 thinkplot.Config(xlabel='How Many Kids', ylabel='Percentage of Whole',)
