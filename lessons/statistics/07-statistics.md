@@ -93,7 +93,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist and Bayesian approaches both define concepts of probability. However, their approaches are rooted in different considerations of plausibility. The Frequentist method thinks of probability as the representation of a long running frequency in which events occur, a repeatable random event. So a Frequentist could not attach a probability to a hypothesis. Whereas Bayesian methods assign probabilities for a possible outcome of a particular situation, in regards to degrees of belief and degrees of logical support. Which creates a method that is applicable to non-repeatable events.
 
 ---
 
